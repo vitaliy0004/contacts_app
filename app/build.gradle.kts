@@ -2,15 +2,14 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
-    id("kotlin-kapt")
 }
 
 android {
-    namespace = "com.example.Contacts_app"
+    namespace = "com.example.contacts_app"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.huy_znaet"
+        applicationId = "com.example.contacts_app"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -59,6 +58,7 @@ dependencies {
     //dagger
     implementation(libs.dagger)
     kapt(libs.dagger.compiler)
+
 
     implementation(libs.glide)
     kapt(libs.glide.compiler)

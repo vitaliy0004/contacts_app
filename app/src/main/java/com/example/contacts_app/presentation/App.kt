@@ -1,9 +1,9 @@
-package com.example.сontacts_app.presentation
+package com.example.contacts_app.presentation
 
 import android.app.Application
-import com.example.сontacts_app.di.AppComponent
-import com.example.сontacts_app.di.DaggerAppComponent
-import com.example.сontacts_app.di.RepositoryModule
+import com.example.contacts_app.di.AppComponent
+import com.example.contacts_app.di.DaggerAppComponent
+import com.example.contacts_app.di.RepositoryModule
 
 class App : Application() {
     lateinit var appComponent: AppComponent

@@ -1,8 +1,8 @@
-package com.example.сontacts_app.di
+package com.example.contacts_app.di
 
-import com.example.сontacts_app.presentation.App
-import com.example.сontacts_app.presentation.MainActivity
-import com.example.сontacts_app.presentation.contact.ContactFragment
+import com.example.contacts_app.presentation.App
+import com.example.contacts_app.presentation.MainActivity
+import com.example.contacts_app.presentation.contact.ContactFragment
 import dagger.Component
 import javax.inject.Singleton
 

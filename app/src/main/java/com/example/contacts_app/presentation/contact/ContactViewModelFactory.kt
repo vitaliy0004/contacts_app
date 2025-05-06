@@ -1,8 +1,8 @@
-package com.example.сontacts_app.presentation.contact
+package com.example.contacts_app.presentation.contact
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.сontacts_app.domane.usecase.GetContactListUseCase
+import com.example.contacts_app.domane.usecase.GetContactListUseCase
 
 class ContactViewModelFactory(
     private val getContactListUseCase: GetContactListUseCase

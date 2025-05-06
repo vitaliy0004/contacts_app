@@ -1,7 +1,7 @@
-package com.example.сontacts_app.di
+package com.example.contacts_app.di
 
-import com.example.сontacts_app.domane.repository.Repository
-import com.example.сontacts_app.domane.usecase.GetContactListUseCase
+import com.example.contacts_app.domane.repository.Repository
+import com.example.contacts_app.domane.usecase.GetContactListUseCase
 import dagger.Module
 import dagger.Provides
 

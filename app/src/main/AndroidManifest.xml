@@ -17,10 +17,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Contacts_app"
-        android:name="com.example.сontacts_app.presentation.App"
+        android:name="com.example.contacts_app.presentation.App"
         tools:targetApi="31">
         <activity
-            android:name="com.example.сontacts_app.presentation.MainActivity"
+            android:name="com.example.contacts_app.presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

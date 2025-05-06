@@ -1,7 +1,7 @@
-package com.example.сontacts_app.di
+package com.example.contacts_app.di
 
 import android.app.Application
-import com.example.сontacts_app.domane.repository.Repository
+import com.example.contacts_app.domane.repository.Repository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -11,6 +11,6 @@ class RepositoryModule(private val application: Application) {
     @Provides
     @Singleton
     fun contentProvide(): Repository {
-        return com.example.сontacts_app.data.Repository(application)
+        return com.example.contacts_app.data.Repository(application)
     }
 }

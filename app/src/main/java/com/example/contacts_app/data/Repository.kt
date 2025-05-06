@@ -1,9 +1,9 @@
-package com.example.сontacts_app.data
+package com.example.contacts_app.data
 
 import android.content.Context
 import android.provider.ContactsContract
-import com.example.сontacts_app.domane.entity.Contact
-import com.example.сontacts_app.domane.repository.Repository
+import com.example.contacts_app.domane.entity.Contact
+import com.example.contacts_app.domane.repository.Repository
 import javax.inject.Inject
 
 class Repository @Inject constructor(

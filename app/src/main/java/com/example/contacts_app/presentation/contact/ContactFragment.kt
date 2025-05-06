@@ -1,4 +1,4 @@
-package com.example.сontacts_app.presentation.contact
+package com.example.contacts_app.presentation.contact
 
 import android.content.pm.PackageManager
 import android.os.Bundle
@@ -7,27 +7,27 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import javax.inject.Inject
-import androidx.fragment.app.viewModels
-import com.example.сontacts_app.presentation.App
+import com.example.contacts_app.presentation.App
 import android.Manifest
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.example.сontacts_app.databinding.FragmentContactBinding
-import com.example.сontacts_app.domane.entity.Contact
-import com.example.сontacts_app.domane.entity.ContactSection
-import com.example.сontacts_app.presentation.contact.adapter.ContactSectionAdapter
+import com.example.contacts_app.databinding.FragmentContactBinding
+import com.example.contacts_app.domane.entity.Contact
+import com.example.contacts_app.domane.entity.ContactSection
+import com.example.contacts_app.presentation.contact.adapter.ContactSectionAdapter
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 
 class ContactFragment : Fragment() {
-    private lateinit var binding:FragmentContactBinding
+    private lateinit var binding: FragmentContactBinding
     @Inject
     lateinit var contactViewModelFactory: ContactViewModelFactory
     private val contactViewModel: ContactViewModel by viewModels { contactViewModelFactory }

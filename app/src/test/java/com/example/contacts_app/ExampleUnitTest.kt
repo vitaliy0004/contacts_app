@@ -1,4 +1,4 @@
-package com.example.сontacts_app
+package com.example.contacts_app
 
 import org.junit.Test
 

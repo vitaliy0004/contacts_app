@@ -1,4 +1,4 @@
-package com.example.сontacts_app.domane.entity
+package com.example.contacts_app.domane.entity
 
 data class Contact(
     val number: String,

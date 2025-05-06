@@ -1,4 +1,4 @@
-package com.example.сontacts_app.presentation.contact.adapter
+package com.example.contacts_app.presentation.contact.adapter
 
 
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.сontacts_app.R
-import com.example.сontacts_app.databinding.ItemContactBinding
-import com.example.сontacts_app.domane.entity.Contact
+import com.example.contacts_app.R
+import com.example.contacts_app.databinding.ItemContactBinding
+import com.example.contacts_app.domane.entity.Contact
 
 
 class ContactAdapter(

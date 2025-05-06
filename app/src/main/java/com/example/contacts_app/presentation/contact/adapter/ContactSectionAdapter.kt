@@ -1,4 +1,4 @@
-package com.example.сontacts_app.presentation.contact.adapter
+package com.example.contacts_app.presentation.contact.adapter
 
 
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.сontacts_app.databinding.ItemContactSectionBinding
-import com.example.сontacts_app.domane.entity.Contact
-import com.example.сontacts_app.domane.entity.ContactSection
+import com.example.contacts_app.databinding.ItemContactSectionBinding
+import com.example.contacts_app.domane.entity.Contact
+import com.example.contacts_app.domane.entity.ContactSection
 
 class ContactSectionAdapter(
     private val onContactClick: (Contact) -> Unit

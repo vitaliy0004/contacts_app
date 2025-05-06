@@ -1,9 +1,9 @@
-package com.example.сontacts_app.presentation.contact
+package com.example.contacts_app.presentation.contact
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.сontacts_app.domane.entity.Contact
-import com.example.сontacts_app.domane.usecase.GetContactListUseCase
+import com.example.contacts_app.domane.entity.Contact
+import com.example.contacts_app.domane.usecase.GetContactListUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
